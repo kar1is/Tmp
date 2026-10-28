@@ -1,0 +1,167 @@
+{
+"atom": {
+    "name": "Cesium",
+    "symbol": "Cs",
+    "isotope": 133,
+    "protons": 55,
+    "nuclear_spin": 3.5,
+    "mass_u": 132.905451931,
+    "mass_u_err": 0.000000027,
+    "mass_kg": 2.20694695096e-25,
+    "mass_kg_err": 0.0000000008e-25
+},
+
+"constants": {
+    "mu_B_h_MHz_G": 1.39962449361,
+    "mu_B_h_MHz_G_err": 0.00000000042,
+    "g_L": 0.99999587,
+    "g_S": 2.00231930436256,
+    "g_S_err": 0.0000000000015,
+    "g_I": -0.00039885395,
+    "g_I_err": 0.00000000052
+},
+
+"levels": {
+    "6S1/2": {
+        "n": 6,
+        "L": 0,
+        "S": 0.5,
+        "J": 0.5,
+
+        "hyperfine": {
+            "A_MHz": 2298.1579425,
+            "A_MHz_err": 0.0,
+            "B_MHz": 0.0,
+            "B_MHz_err": 0.0,
+            "C_MHz": 0.0,
+            "C_MHz_err": 0.0
+        },
+
+        "F": {
+            "3": {
+                "gF": -0.25,
+                "gF_MHz_G": -0.35
+            },
+            "4": {
+                "gF": 0.25,
+                "gF_MHz_G": 0.35
+            }
+        }
+    },
+
+    "6P1/2": {
+        "n": 6,
+        "L": 1,
+        "S": 0.5,
+        "J": 0.5,
+
+        "hyperfine": {
+            "A_MHz": 291.9201,
+            "A_MHz_err": 0.0075,
+            "B_MHz": 0.0,
+            "B_MHz_err": 0.0,
+            "C_MHz": 0.0,
+            "C_MHz_err": 0.0
+        },
+
+        "F": {
+            "3": {
+                "gF": -0.0833333333333,
+                "gF_MHz_G": -0.12,
+                "energy_MHz": -364.0
+            },
+            "4": {
+                "gF": 0.0833333333333,
+                "energy_MHz": 0.12
+            }
+        }
+    },
+
+    "6P3/2": {
+        "n": 6,
+        "L": 1,
+        "S": 0.5,
+        "J": 1.5,
+
+        "hyperfine": {
+            "A_MHz": 50.28827,
+            "A_MHz_err": 0.00023,
+            "B_MHz": -0.4934,
+            "B_MHz_err": 0.0017,
+            "C_MHz": 0.00056,
+            "C_MHz_err":0.00007
+        },
+
+        "F": {
+            "2": {
+                "gF": 0.666666666666,
+                "gF_MHz_G": -0.93
+            },
+            "3": {
+                "gF": 0.0,
+                "gF_MHz_G": 0.0
+            },
+            "4": {
+                "gF": 0.26666666666666666,
+                "gF_MHz_G": 0.37
+            },
+            "5": {
+                "gF": 0.4,
+                "gF_MHz_G": 0.56
+            }
+        }
+    }
+},
+
+"transitions": {
+    "D1": {
+        "lower": "6S1/2",
+        "upper": "6P1/2",
+
+        "wavelength_nm": 894.59295986,
+        "wavelength_nm_err": 0.0000001,
+        "wavenumber_cm": 11178.2681607,
+        "wavenumber_cm_err": 0.0000014,
+        "frequency_MHz": 335.116048807e3,
+        "frequency_MHz_err": 0.000000041e3,
+        "frequency_THz": 335.116048807,
+        "frequency_THz_err": 0.000000041,
+        "lifetime_ns": 34.791,
+        "lifetime_ns_err": 0.09,
+        "linewidth_MHz": 4.575,
+        "linewidth_MHz_err": 0.012,
+        "dipole_matrix_element_au": 3.1869,
+        "dipole_matrix_element_au_err": 0.0041,
+        "dipole_matrix_element_SI": 2.7020e-29,
+        "dipole_matrix_element_SI_err": 0.0035e-29
+    },
+
+    "D2": {
+        "lower": "6S1/2",
+        "upper": "6P3/2",
+
+        "wavelength_nm": 852.34727582,
+        "wavelength_nm_err": 0.00000027,
+        "wavenumber_cm": 11732.3071049,
+        "wavenumber_cm_err": 0.0000037,
+        "frequency_MHz": 351.72571850e3,
+        "frequency_MHz_err": 0.00000011e3,
+        "frequency_THz": 351.72571850,
+        "frequency_THz_err": 0.00000011,
+        "lifetime_ns": 30.405,
+        "lifetime_ns_err": 0.077,
+        "linewidth_MHz": 5.234,
+        "linewidth_MHz_err": 0.013,
+        "dipole_matrix_element_au": 4.4837,
+        "dipole_matrix_element_au_err": 0.0057,
+        "dipole_matrix_element_SI": 3.8014e-29,
+        "dipole_matrix_element_SI_err": 0.0048e-29
+    }
+},
+
+"references": {
+    "steck_version": "2.3.4",
+    "last_modified": "07-08-2026",
+    "citation": "Daniel A. Steck, Cesium D Line Data"
+}
+}

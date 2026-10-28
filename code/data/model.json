@@ -1,0 +1,93 @@
+{
+    "atom": {
+        "name": "Cesium_Test_D1_F1_F0",
+        "symbol": "Cs",
+        "isotope": 133,
+        "protons": 55,
+        "nuclear_spin": 0.5,
+        "mass_u": 132.905451931,
+        "mass_kg": 2.20694695096e-25
+    },
+
+    "constants": {
+        "mu_B_h_MHz_G": 1.39962449361,
+        "g_L": 0.99999587,
+        "g_S": 2.00231930436256,
+        "g_I": -0.00039885395
+    },
+
+    "levels": {
+
+        "6S1/2": {
+            "n": 6,
+            "L": 0,
+            "S": 0.5,
+            "J": 0.5,
+
+            "hyperfine": {
+                "A_MHz": 2298.1579425,
+                "B_MHz": 0.0,
+                "C_MHz": 0.0
+            },
+
+            "F": {
+                "1": {
+                    "gF": -0.25,
+                    "gF_MHz_G": -0.35
+                }
+            }
+        },
+
+
+        "6P1/2": {
+            "n": 6,
+            "L": 1,
+            "S": 0.5,
+            "J": 0.5,
+
+            "hyperfine": {
+                "A_MHz": 291.9201,
+                "B_MHz": 0.0,
+                "C_MHz": 0.0
+            },
+
+            "F": {
+                "0": {
+                    "gF": 0.0,
+                    "gF_MHz_G": 0.0
+                }
+            }
+        }
+    },
+
+
+    "transitions": {
+
+        "D1_test": {
+
+            "lower": "6S1/2",
+            "upper": "6P1/2",
+
+            "wavelength_nm": 894.59295986,
+
+            "frequency_MHz": 335116.048807,
+
+            "lifetime_ns": 34.791,
+
+            "linewidth_MHz": 4.575,
+
+            "dipole_matrix_element_au": 3.1869,
+
+            "dipole_matrix_element_SI": 2.7020e-29
+        }
+
+    },
+
+
+    "references": {
+
+        "base_data": "Daniel A. Steck, Cesium D Line Data 2.3.4",
+
+        "note": "Artificial reduced model for testing symbolic Hamiltonian and Lindblad construction"
+    }
+}
